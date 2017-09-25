@@ -17,6 +17,12 @@ body {
 	margin-left: 560px;
 }
 
+#whiteheart {
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 560px;
+}
+
 /*div {
   transition: all 1s ease-out;
 }

@@ -2,6 +2,9 @@
     $("#heart").click(function(){$(this).toggleClass("active")})
 })
 */
+$(function(){
+    $("#whiteheart").click(function(){$(this).toggleClass("active")})
+})
 
 $(function(){
 	var i = .25;
