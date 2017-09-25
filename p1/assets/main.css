@@ -1,0 +1,31 @@
+/* reset padding and margins */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+/* container */
+
+#heart {
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 560px;
+}
+
+div {
+  transition: all 2s ease-out;
+}
+
+div.active {
+  transform: scale(2,2);
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<div>asd</div>
+
+/* example buttons */
