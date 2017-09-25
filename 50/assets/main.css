@@ -1,0 +1,262 @@
+/* reset padding and margins */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+/* container */
+
+.container {
+	position: relative;
+	width: 50%
+	height: auto;
+}
+
+/* items */
+
+.row {
+	position: relative;
+	width: 100%;
+	height: 200px;
+}
+
+.item {
+	height: 300px;
+	width: 25%;
+	background: blue;
+	color: yellow;
+	position: relative;
+
+	/*margin: 10px;
+
+	/* comment out 'float: left;' to have items stack in a single column */
+	float: left; 
+
+	/* uncomment this to get CSS transitions (conflicts with jQuery) */
+	/* transition: all 500ms ease; */
+}
+
+/* example buttons */
+
+#button-1 {
+	background-color: #69f4f0;
+}
+
+#button-2 {
+	background-color: #69f4f0;
+}
+
+#button-3 {
+	background-color: #69f4f0;
+}
+
+#button-4 {
+	background-color: #69f4f0;
+}
+
+#button-5 {
+	background-color: #69f4f0;
+}
+
+#button-6 {
+	background-color: #ff31a2;
+}
+
+#button-7 {
+	background-color: #69f4f0;
+}
+
+#button-8 {
+	background-color: #69f4f0;
+}
+
+#button-9 {
+	background-color: #69f4f0;
+}
+
+#button-10 {
+	background-color: #69f4f0;
+}
+
+#button-11 {
+	background-color: #69f4f0;
+}
+
+#button-12 {
+	background-color: #69f4f0;
+}
+
+#button-13 {
+	background-color: #69f4f0;
+}
+
+#button-14 {
+	background-color: #ff31a2;
+}
+
+#button-15 {
+	background-color: #69f4f0;
+}
+
+#button-16 {
+	background-color: #69f4f0;
+}
+
+#button-17 {
+	background-color: #69f4f0;
+}
+
+#button-18 {
+	background-color: #69f4f0;
+}
+
+#button-19 {
+	background-color: #69f4f0;
+}
+
+#button-20 {
+	background-color: #69f4f0;
+}
+
+#button-21 {
+	background-color: #69f4f0;
+}
+
+#button-22 {
+	background-color: #ff31a2;
+}
+
+#button-23 {
+	background-color: #69f4f0;
+}
+
+#button-24 {
+	background-color: #69f4f0;
+}
+
+#button-25 {
+	background-color: #69f4f0;
+}
+
+#button-26 {
+	background-color: #69f4f0;
+}
+
+#button-27 {
+	background-color: #69f4f0;
+}
+
+#button-28 {
+	background-color: #69f4f0;
+}
+
+#button-29 {
+	background-color: #69f4f0;
+}
+
+#button-30 {
+	background-color: #ff31a2;
+}
+
+#button-31 {
+	background-color: #69f4f0;
+}
+
+#button-32 {
+	background-color: #69f4f0;
+}
+
+#button-33 {
+	background-color: #69f4f0;
+}
+
+#button-34 {
+	background-color: #ff31a2;
+}
+
+#button-35 {
+	background-color: #69f4f0;
+}
+
+#button-36 {
+	background-color: #69f4f0;
+}
+
+#button-37 {
+	background-color: #69f4f0;
+}
+
+#button-38 {
+	background-color: #ff31a2;
+}
+
+#button-39 {
+	background-color: #69f4f0;
+}
+
+#button-40 {
+	background-color: #69f4f0;
+}
+
+#button-41 {
+	background-color: #69f4f0;
+}
+
+#button-42 {
+	background-color: #ff31a2;
+}
+
+#button-43 {
+	background-color: #69f4f0;
+}
+
+#button-44 {
+	background-color: #69f4f0;
+}
+
+#button-45 {
+	background-color: #69f4f0;
+}
+
+#button-46 {
+	background-color: #ff31a2;
+}
+
+#button-47 {
+	background-color: #69f4f0;
+}
+
+#button-48 {
+	background-color: #69f4f0;
+}
+
+#button-49 {
+	background-color: #ff31a2;
+}
+
+#button-50 {
+	background-color: #69f4f0;
+}
+
+
+#button-1:hover {
+	transform: rotate(90deg) scale(1.5);
+	opacity: .3;
+}
+
+#button-1:active {
+	background: pink;
+	opacity: .8;
+}
+
+/* example buttons */
+
+#button-2:hover {
+	transform: rotate(69deg) scale(-.5);
+	background-color: yellow;
+}
